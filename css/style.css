@@ -1,0 +1,91 @@
+html{
+    box-sizing: border-box;
+}
+.header {
+    display: block;
+    text-align: center;
+    
+}
+
+#container {
+    margin: auto;
+    width: 80%;
+    background-color:lightblue;
+    
+}
+.profile_pic {
+    width: 40%;
+    display: block;
+    text-align: center;
+    margin: 0px auto;
+    
+}
+.profile_pic img {
+    width: 50%;
+    border-radius: 50%;
+    
+  
+}
+.about{
+    display: block;
+    width: 80%;
+    /* text-align: center; */
+    margin: auto;
+}
+
+.about hr{
+    width: 95%;
+}
+.about p{
+ padding-left: 2em;
+}
+
+h1 {
+    color:darkblue;
+    
+}
+
+.skills img, .social img {
+    width:5%;
+}
+.skills img:last-child{
+    width:3%;
+}
+h2{
+    text-decoration: underline;
+    text-align: center;
+}
+
+.about article{
+    margin: auto;
+}
+.skills{
+    text-align: center;
+}
+
+.hobbies{
+
+    width:80%;
+    margin: auto;
+    margin-top: 6em;
+}
+
+.hobbies article{
+    display: inline-block;
+    width: 40%;
+    
+
+}
+.hobbies ul{
+    padding-left: 40%;
+}
+.hobbies li{
+    list-style: circle;
+}
+.map,footer{
+    width: 80%;
+    text-align: center;
+    margin: auto;
+    margin-top: 6em;
+}
+
