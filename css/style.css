@@ -11,6 +11,7 @@ html{
     margin: auto;
     width: 80%;
     background-color:lightblue;
+    padding-top: 2em;
     
 }
 .profile_pic {
@@ -18,15 +19,17 @@ html{
     display: block;
     text-align: center;
     margin: 0px auto;
+    margin-bottom: 2em;
     
 }
 .profile_pic img {
     width: 50%;
     border-radius: 50%;
     
+    
   
 }
-.about,.skills,.hobbies,.map{
+.about,.skills,.hobbies,.map {
     display: block;
     width: 80%;
     /* text-align: center; */
@@ -35,12 +38,13 @@ html{
     border-radius: 5px;
     margin-bottom:2em;
 }
-h1{
+h1 {
     font-family: 'Open Sans', sans-serif;
     line-height: 1.17857;
     font-size: 3.5em;
     letter-spacing: -.5px;
     font-weight: 700;
+    color:darkblue;
 }
 h2{
     font-family: "Google Sans","Roboto",Arial,Helvetica,sans-serif;
@@ -56,16 +60,16 @@ h2{
     box-shadow: 0 0 10px #58a7e9;
 }
 
-hr{
+hr {
     width: 95%;
     border: 0.5px solid #58a7e9;
 }
-h2{
+h2 {
     margin-bottom: 0;
 }
-.about p{
- padding-left:1em;
- padding-right:1em;
+.about p {
+    padding-left:1em;
+    padding-right:1em;
  
 } 
 p {
@@ -78,15 +82,11 @@ p {
     
 }
 
-h1 {
-    color:darkblue;
-    
-}
 
 .skills img, .social img {
     width:5%;
 }
-.skills img:last-child{
+.skills img:last-child {
     width:3%;
 }
 h2{
@@ -94,7 +94,7 @@ h2{
     text-align: center;
 }
 
-.about article{
+.about article {
     margin: auto;
 }
 .skills{
@@ -102,7 +102,7 @@ h2{
     padding-bottom: 2em;
 }
 
-.hobbies{
+.hobbies {
 
     width:80%;
     margin: auto;
@@ -122,19 +122,26 @@ h2{
     list-style: none;
 }
 
-.hobbies li::before{
+.hobbies li::before {
     content: "\00BB";
 }
-.map,footer{
+.map,footer {
     width: 80%;
     text-align: center;
     margin: auto;
     margin-top: 6em;
 }
-footer{
+footer {
     margin-bottom: 2em;
 }
 .copyright {
     padding-bottom: 2em;
 }
+.copyright p {
+    font-style: italic;
+    font-size:0.8em;
+}
 
+.skills article, .hobbies article,.map article {
+    padding-top:2em;
+}
