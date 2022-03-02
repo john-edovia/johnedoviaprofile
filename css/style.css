@@ -14,7 +14,7 @@ html{
     
 }
 .profile_pic {
-    width: 40%;
+    width: 30%;
     display: block;
     text-align: center;
     margin: 0px auto;
@@ -26,18 +26,56 @@ html{
     
   
 }
-.about{
+.about,.skills,.hobbies,.map{
     display: block;
     width: 80%;
     /* text-align: center; */
     margin: auto;
+    border: 0.5px solid #74addb;
+    border-radius: 5px;
+    margin-bottom:2em;
+}
+h1{
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.17857;
+    font-size: 3.5em;
+    letter-spacing: -.5px;
+    font-weight: 700;
+}
+h2{
+    font-family: "Google Sans","Roboto",Arial,Helvetica,sans-serif;
+    color: #202124;
+    font-style: normal;
+    line-height: 1.25;
+    font-size: 1.5em;
+    letter-spacing: 0;
+}
+.about:hover,.skills:hover,.hobbies:hover,.map:hover { 
+    outline: none;
+    border-color: #58a7e9;
+    box-shadow: 0 0 10px #58a7e9;
 }
 
-.about hr{
+hr{
     width: 95%;
+    border: 0.5px solid #58a7e9;
+}
+h2{
+    margin-bottom: 0;
 }
 .about p{
- padding-left: 2em;
+ padding-left:1em;
+ padding-right:1em;
+ 
+} 
+p {
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    letter-spacing: normal;
+    line-height: 26px;
+    
 }
 
 h1 {
@@ -52,7 +90,7 @@ h1 {
     width:3%;
 }
 h2{
-    text-decoration: underline;
+    #text-decoration: underline;
     text-align: center;
 }
 
@@ -61,6 +99,7 @@ h2{
 }
 .skills{
     text-align: center;
+    padding-bottom: 2em;
 }
 
 .hobbies{
@@ -80,12 +119,22 @@ h2{
     padding-left: 40%;
 }
 .hobbies li{
-    list-style: circle;
+    list-style: none;
+}
+
+.hobbies li::before{
+    content: "\00BB";
 }
 .map,footer{
     width: 80%;
     text-align: center;
     margin: auto;
     margin-top: 6em;
+}
+footer{
+    margin-bottom: 2em;
+}
+.copyright {
+    padding-bottom: 2em;
 }
 
