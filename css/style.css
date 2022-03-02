@@ -15,7 +15,7 @@ html{
     
 }
 .profile_pic {
-    width: 30%;
+    width: 40%;
     display: block;
     text-align: center;
     margin: 0px auto;
@@ -53,6 +53,8 @@ h2{
     line-height: 1.25;
     font-size: 1.5em;
     letter-spacing: 0;
+    margin-bottom: 0;
+    text-align: center;
 }
 .about:hover,.skills:hover,.hobbies:hover,.map:hover { 
     outline: none;
@@ -64,9 +66,7 @@ hr {
     width: 95%;
     border: 0.5px solid #58a7e9;
 }
-h2 {
-    margin-bottom: 0;
-}
+
 .about p {
     padding-left:1em;
     padding-right:1em;
@@ -85,15 +85,16 @@ p {
 
 .skills img, .social img {
     width:5%;
+
 }
+@media screen and (min-width: 600px) {
+    .skills img, .social img {
+      margin-right: 2em;
+    }
+  }
 .skills img:last-child {
     width:3%;
 }
-h2{
-    #text-decoration: underline;
-    text-align: center;
-}
-
 .about article {
     margin: auto;
 }
@@ -112,12 +113,27 @@ h2{
 .hobbies article{
     display: inline-block;
     width: 40%;
-    
+    padding: 1rem 1rem;
 
 }
 .hobbies ul{
     padding-left: 40%;
 }
+.skills article, .hobbies article,.map article {
+    padding-top:2em;
+}
+@media screen and (max-width: 599px) {
+    .hobbies ul {
+    padding-left: 20%;
+    /* padding-right: 5%; */
+}
+    .hobbies article {
+        width:100%;
+         padding-top: 2em;
+        margin-top: 2em;
+    
+}
+  }
 .hobbies li{
     list-style: none;
 }
@@ -125,6 +141,7 @@ h2{
 .hobbies li::before {
     content: "\00BB";
 }
+
 .map,footer {
     width: 80%;
     text-align: center;
@@ -142,6 +159,3 @@ footer {
     font-size:0.8em;
 }
 
-.skills article, .hobbies article,.map article {
-    padding-top:2em;
-}
