@@ -60,6 +60,8 @@ h2{
     outline: none;
     border-color: #58a7e9;
     box-shadow: 0 0 10px #58a7e9;
+    width:81%;
+    transition: width 1.5s;
 }
 
 hr {
