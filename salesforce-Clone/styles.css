@@ -1,0 +1,35 @@
+#page-body {
+    background: url("./images/homepage-customer-story-headspace-xs-bg-2.png") no-repeat center bottom/cover;
+    min-height: 100%;
+}
+
+
+div.col.front-col-img img{
+    max-width: 100% !important;
+    max-height: 100% !important;
+    border-radius: 18px !important;
+}
+#front-img{
+   margin-left: 4rem;
+
+}
+    
+.front2-img img{
+    max-width: 100% !important;
+    max-height: 100% !important;
+    border-radius: 18px !important;
+}
+
+/* #crm-div{
+    background: url("./images/php-breaker-desktop-1.png") no-repeat center bottom/cover;
+    min-height: 100%;
+} */
+.front2-img {
+    margin-bottom: 50px;
+}
+/* border-radius: 16px;
+margin-bottom: 24px;
+width: 100%;
+aspect-ratio: 16/9;
+-o-object-fit: contain;
+object-fit: contain; */
