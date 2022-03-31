@@ -1,3 +1,4 @@
+
 #page-body {
     background: url("./images/homepage-customer-story-headspace-xs-bg-2.png") no-repeat center bottom/cover;
     min-height: 100%;
@@ -27,6 +28,10 @@ div.col.front-col-img img{
 .front2-img {
     margin-bottom: 50px;
 }
+.breaker-img img{
+    max-width: 100% !important;
+}
+
 /* border-radius: 16px;
 margin-bottom: 24px;
 width: 100%;
