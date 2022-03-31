@@ -32,9 +32,10 @@ div.col.front-col-img img{
     max-width: 100% !important;
 }
 
-/* border-radius: 16px;
-margin-bottom: 24px;
-width: 100%;
-aspect-ratio: 16/9;
--o-object-fit: contain;
-object-fit: contain; */
+.front-roll2 img,.front-roll3 img {
+    max-width: 100%;
+    
+}
+.front-roll3 img {
+    border-radius: 18px;
+}
