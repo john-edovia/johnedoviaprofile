@@ -39,3 +39,57 @@ div.col.front-col-img img{
 .front-roll3 img {
     border-radius: 18px;
 }
+
+.topic-div {
+    width: 90%;
+    margin-left: 2rem;
+    border-radius: 18px;
+    
+}
+.app-salesforce img,.app-salesforce2 img{
+    max-width: 80%;
+}
+.app-text,.app-text2 {
+    padding-top: 6rem !important;
+}
+.app-div {
+    max-width: 80%;
+}
+.bottom-div {
+    background-color: #d8e6fe;
+    border-radius:18px;
+    
+}
+.bottom-div div{
+    margin: 0 auto;
+    width: 40%;
+}
+
+.update-div img {
+    width: 60%;
+    
+}
+.update-div {
+    position: relative;
+}
+
+.update-img-div {
+    position: absolute;
+    top: -90px;
+    left: -5rem;
+}
+
+.update-img-div2 {
+    position: absolute;
+    top: 130px;
+    left:65%;
+}
+
+.footer-img img {
+    display: inline;
+    width: 13%;
+    
+}
+footer {
+    margin-top: 13rem;
+}
