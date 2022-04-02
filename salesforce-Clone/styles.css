@@ -87,9 +87,13 @@ div.col.front-col-img img{
 
 .footer-img img {
     display: inline;
-    width: 13%;
+    width: 30px;
     
 }
 footer {
     margin-top: 13rem;
+}
+
+footer a{
+    text-decoration: none;
 }
