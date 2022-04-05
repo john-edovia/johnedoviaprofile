@@ -4,6 +4,9 @@
     min-height: 100%;
 }
 
+.navbar-brand img {
+    width: 80%;
+}
 
 div.front-col-img img{
     max-width: 100% !important;
@@ -107,12 +110,14 @@ footer a{
     text-decoration: none;
 }
 
-/* Learn what Salesforce products can do for you - Section*/
-/* @media screen and (max-width: 576px){
-    .inline-block div{
-        text-align: center;
+
+/* NAV Section Media */
+@media screen and (max-width: 990px){
+    .hide-div{
+        display: none !important;
+        visibility: hidden !important;
     }
-} */
+}
     
 /* What’s new at Salesforce? */
 
@@ -151,4 +156,7 @@ footer a{
     .front-roll3 div img {
         width: 60%;
     }
+}
+#navbarSupportedContent  a,.div-phone,.div-contact,.div-login {
+    color: #215ca0 !important;
 }
