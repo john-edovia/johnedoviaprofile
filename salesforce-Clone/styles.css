@@ -5,14 +5,17 @@
 }
 
 
-div.col.front-col-img img{
+div.front-col-img img{
     max-width: 100% !important;
-    max-height: 100% !important;
+    /* max-height: 100% !important; */
     border-radius: 18px !important;
 }
 #front-img{
    margin-left: 4rem;
 
+}
+#front-img p,#front-img h3{
+    text-align: left;
 }
     
 .front2-img img{
@@ -47,7 +50,13 @@ div.col.front-col-img img{
     
 }
 .app-salesforce img,.app-salesforce2 img{
-    max-width: 80%;
+    width: 80%;
+    max-width: 410px;
+}
+.app-salesforce2 h2{
+    color: #032d60;
+    font-weight: 700;
+    line-height: 1;
 }
 .app-text,.app-text2 {
     padding-top: 6rem !important;
@@ -96,4 +105,50 @@ footer {
 
 footer a{
     text-decoration: none;
+}
+
+/* Learn what Salesforce products can do for you - Section*/
+/* @media screen and (max-width: 576px){
+    .inline-block div{
+        text-align: center;
+    }
+} */
+    
+/* What’s new at Salesforce? */
+
+@media screen and (max-width: 990px){
+    div.front-col-img img{
+        max-width: 80% !important;
+        /* max-height: 100% !important; */
+        border-radius: 18px !important;
+    }
+}
+
+/* Explore groups and topics relevant to you. */
+@media screen and (max-width: 990px){
+    .topic-div{
+        max-width: 60% !important;
+        /* max-height: 100% !important; */
+        border-radius: 18px !important;
+        margin: auto;
+    }
+    
+}
+
+@media screen and (max-width: 540px){
+    .div-app-salesforce div {
+        margin: auto;
+    }
+    .app-salesforce img {
+        max-width: 60%;
+    }
+}
+/* Salesforce virtual events. Coming to a device near you. */
+@media screen and (max-width: 990px){
+    .front-roll3 div {
+        margin: auto !important;
+    }
+    .front-roll3 div img {
+        width: 60%;
+    }
 }
