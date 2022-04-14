@@ -111,15 +111,11 @@ p {
     margin: auto;
     margin-top: 6em;
 }
-.projects img{
-    width: 100%;
-}
 
 .hobbies article{
     display: inline-block;
     width: 40%;
     padding: 1rem 1rem;
-    
 
 }
 .hobbies ul{
