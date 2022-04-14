@@ -46,7 +46,7 @@ h1 {
     font-weight: 700;
     color:darkblue;
 }
-h2{
+/* h2{
     font-family: "Google Sans","Roboto",Arial,Helvetica,sans-serif;
     color: #202124;
     font-style: normal;
@@ -55,14 +55,15 @@ h2{
     letter-spacing: 0;
     margin-bottom: 0;
     text-align: center;
-}
-.about:hover,.skills:hover,.hobbies:hover,.map:hover { 
+} */
+.about:hover,.skills:hover,.hobbies:hover,.map:hover{ 
     outline: none;
     border-color: #58a7e9;
     box-shadow: 0 0 10px #58a7e9;
     width:81%;
     transition: width 1.5s;
 }
+
 
 hr {
     width: 95%;
