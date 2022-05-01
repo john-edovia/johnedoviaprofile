@@ -274,3 +274,17 @@ footer a {
         transform: translateY(0);
     }
 }
+
+@media screen and (max-width: 540px) {
+    .coupon-span-div {
+        width: 50%;
+        margin-top: 5px;
+        margin-left: 18%;
+    }
+
+    .coupon-span-div span {
+
+        font-weight: bold;
+        font-size: 1rem;
+    }
+}
