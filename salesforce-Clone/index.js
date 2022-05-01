@@ -15,6 +15,7 @@ function changeMode() {
     if (docElement.classList.contains("mode-black")) {
         document.getElementById("btn_dark").innerHTML = "Dark Mode On";
         ukraineTxt.style.color = "black";
+        document.getElementById("coupon-div-h3").style.color = "black"
         for (let i = 0; i < navBarA.length; i++) {
             navBarA[i].setAttribute("style", "color: white !important;");
             // navBarA[i].setAttribute("style", "background-color: black !important;");
@@ -38,3 +39,11 @@ function changeMode() {
         }
     }
 }
+function loadCoupon() {
+    document.getElementById("coupon").style.visibility = "visible";
+}
+
+function closeCoupon() {
+    document.getElementById("coupon").style.visibility = "hidden";
+}
+window.onload = loadCoupon()
