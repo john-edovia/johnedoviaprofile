@@ -11,8 +11,8 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 
-<body>
-    <div class="container-fluid" style="background-color: white; border-bottom: solid 3px #00a1e0;">
+<body id="dark-body">
+    <div id="dark-header" class="container-fluid" style="background-color: white; border-bottom: solid 3px #00a1e0;">
 
         <div class="row">
             <div class="col-lg-8 col-md-12" style="text-align: center;">
@@ -48,6 +48,10 @@
                                     <a class="nav-link disabled">Salesforce+</a>
                                 </li>
                             </ul>
+                            <div class="mode text-center "><button id="btn_dark" class="btn btn-sm btn-secondary"
+                                    onclick="changeMode()">Dark
+                                    Mode Off</button>
+                            </div>
 
 
                         </div>
@@ -80,6 +84,7 @@
                             <button type="button" class="btn btn-outline-primary btn-lg"
                                 data-mdb-ripple-color="dark">Try for free</button>
                         </div>
+
                     </div>
                 </div>
 
@@ -88,7 +93,7 @@
 
     </div>
     <div class="container-fluid pt-3 pb-3" style="text-align: center; background-color: #ecf8fe;">
-        <h6>Salesforce Stands with Ukraine</h6>
+        <h6 id="ukraine-text">Salesforce Stands with Ukraine</h6>
     </div>
     <div class=".container-fluid ">
         <div class="row">
@@ -418,7 +423,7 @@
                     </div>
                     <p class="footer-phone mt-3"><span>Call us at 1-800-664-9073</span></p>
                 </div>
-                <div class="col-lg-3 col-sm-12 text-center">
+                <div class="col-lg-3 col-sm-12 text-center footer-dark">
                     <h3>New to Salesforce?</h3>
                     <ul class="list-group">
                         <li class="list-group-item border-0 text-primary small"><a href="">What is CRM?</a></li>
@@ -436,7 +441,7 @@
 
                     </ul>
                 </div>
-                <div class="col-lg-3 col-sm-12 text-center">
+                <div class="col-lg-3 col-sm-12 text-center footer-dark">
                     <h3>About Salesforce</h3>
                     <ul class="list-group">
                         <li class="list-group-item border-0 text-primary small"><a href="">Our Story</a></li>
@@ -451,7 +456,7 @@
                         </li>
                     </ul>
                 </div>
-                <div class="col-lg-3 col-sm-12 text-center">
+                <div class="col-lg-3 col-sm-12 text-center footer-dark">
                     <h3>Popular Links</h3>
                     <ul class="list-group">
                         <li class="list-group-item border-0 text-primary small"><a href="">New Release Features</a>
@@ -480,6 +485,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
         crossorigin="anonymous"></script>
+    <script src="index.js"></script>
 </body>
 
 </html>

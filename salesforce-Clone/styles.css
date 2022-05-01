@@ -160,3 +160,24 @@ footer a{
 #navbarSupportedContent  a,.div-phone,.div-contact,.div-login {
     color: #215ca0 !important;
 }
+
+/* Dark Mode */
+
+.mode-black,.footer-black {
+    background-color: black;
+    color: white;
+}
+
+.footer-black a {
+    color: white !important;
+}
+
+/* .white-anchor {
+    color: white !important;
+}
+
+
+#navbarSupportedContent ul li a {
+    color:white !important;
+    
+    } */
